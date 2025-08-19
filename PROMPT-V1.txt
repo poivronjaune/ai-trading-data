@@ -1,0 +1,10 @@
+Pretty good, I had an idea for a python app. I want you to help me write a PRD.
+The app is a simple package called gitdata. It is a play of words on github price data :).
+Here some elements to consider:
+-DOwnload mixed up price data from a public github repo.
+-The repo may contain many files, we can assume they are all CSV files that containOHLCV price data with a datetime index and a ticker symbol.
+-The app must offer a simple console interface to select a github uer and repo name
+-Once we activate the download, it will download all files, ideally one by one and create a new csv file for each ticker.
+-The save process must check that there are noe datetime repetitions, if the row being treated is a duplicate ignore it and skip to the next row
+
+So build a PRD document that I will use to generate an app with.
