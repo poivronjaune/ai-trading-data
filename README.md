@@ -1,7 +1,9 @@
 # GitData
 
 A lightweight Python package designed to fetch and consolidate CSV data from public GitHub repositories by ticker symbols.
-
+> [!WARNING]
+> This code **DOES NOT USE** Ai models when run. The code was generated using vibecoding techniques. 
+> 
 ## Overview
 
 `gitdata` provides a simple console interface where users can specify a GitHub username and repository name containing CSV files. The package downloads and consolidates data by ticker symbols without any modifications to preserve the original data structure.
